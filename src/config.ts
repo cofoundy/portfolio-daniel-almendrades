@@ -14,7 +14,7 @@ export const siteConfig = {
   ],
 
   tagline:
-    "No solo bilingüe — bicultural. 30+ años liderando operaciones de carga internacional entre Perú, Canadá, USA y México.",
+    "No solo bilingüe — bicultural. 30+ años liderando operaciones de carga internacional en Canadá, México, USA y Perú.",
 
   social: {
     email: "daniel.almendrades@seacargo.com",

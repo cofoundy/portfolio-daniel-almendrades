@@ -1,6 +1,6 @@
 {
   "url": "https://daniel-almendrades.cofoundy.dev",
-  "timestamp": "2026-04-21T17:04:11.096Z",
+  "timestamp": "2026-04-21T17:07:29.271Z",
   "desktop": {
     "viewport": {
       "width": 1280,
@@ -8,7 +8,7 @@
     },
     "full": {
       "file": "desktop-full.png",
-      "fileSize": "452KB"
+      "fileSize": "455KB"
     },
     "sections": [
       {
@@ -33,7 +33,7 @@
         "file": "desktop-education.png",
         "section": "education",
         "height": 484,
-        "fileSize": "47KB"
+        "fileSize": "46KB"
       },
       {
         "file": "desktop-footer-4.png",
@@ -58,7 +58,7 @@
         "file": "mobile-hero.png",
         "section": "hero",
         "height": 863,
-        "fileSize": "52KB"
+        "fileSize": "54KB"
       },
       {
         "file": "mobile-about.png",
@@ -75,8 +75,8 @@
       {
         "file": "mobile-education.png",
         "section": "education",
-        "height": 788,
-        "fileSize": "50KB"
+        "height": 724,
+        "fileSize": "48KB"
       },
       {
         "file": "mobile-footer-4.png",
@@ -85,6 +85,6 @@
         "fileSize": "14KB"
       }
     ],
-    "pageHeight": 5447
+    "pageHeight": 5383
   }
 }
