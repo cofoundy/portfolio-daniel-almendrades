@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from "../config";
 import BrandIcon from "./BrandIcon.astro";
+import { getIconInfo } from "../utils/icons";
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
 
@@ -13,18 +14,21 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {siteConfig.education.map((edu, index) => (
+        {siteConfig.education.map((edu, index) => {
+          const hasIcon = getIconInfo(edu.school).file !== null;
+          return (
           <div
             class={`reveal stagger-${index + 1} card-hover flex gap-4 p-4 rounded-xl bg-white`}
             style={`border: 1px solid ${siteConfig.accentColor}12`}
           >
-            <!-- School icon (auto-discovers from public/icons/) -->
-            <div
-              class="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-              style={`background-color: ${siteConfig.highlightColor}15`}
-            >
-              <BrandIcon name={edu.school} size={28} />
-            </div>
+            {hasIcon && (
+              <div
+                class="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
+                style={`background-color: ${siteConfig.highlightColor}15`}
+              >
+                <BrandIcon name={edu.school} size={28} />
+              </div>
+            )}
 
             <div class="flex-1 min-w-0">
               <h3 class="text-base font-semibold" style={`color: ${siteConfig.accentColor}`}>
@@ -46,7 +50,8 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               )}
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   </section>

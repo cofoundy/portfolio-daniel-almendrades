@@ -1,0 +1,90 @@
+{
+  "url": "https://daniel-almendrades.cofoundy.dev",
+  "timestamp": "2026-04-21T17:04:11.096Z",
+  "desktop": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "full": {
+      "file": "desktop-full.png",
+      "fileSize": "452KB"
+    },
+    "sections": [
+      {
+        "file": "desktop-hero.png",
+        "section": "hero",
+        "height": 649,
+        "fileSize": "86KB"
+      },
+      {
+        "file": "desktop-about.png",
+        "section": "about",
+        "height": 692,
+        "fileSize": "115KB"
+      },
+      {
+        "file": "desktop-experience.png",
+        "section": "experience",
+        "height": 1118,
+        "fileSize": "180KB"
+      },
+      {
+        "file": "desktop-education.png",
+        "section": "education",
+        "height": 484,
+        "fileSize": "47KB"
+      },
+      {
+        "file": "desktop-footer-4.png",
+        "section": "footer-4",
+        "height": 205,
+        "fileSize": "15KB"
+      }
+    ],
+    "pageHeight": 3171
+  },
+  "mobile": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "full": {
+      "file": "mobile-full.png",
+      "fileSize": "390KB"
+    },
+    "sections": [
+      {
+        "file": "mobile-hero.png",
+        "section": "hero",
+        "height": 863,
+        "fileSize": "52KB"
+      },
+      {
+        "file": "mobile-about.png",
+        "section": "about",
+        "height": 1411,
+        "fileSize": "110KB"
+      },
+      {
+        "file": "mobile-experience.png",
+        "section": "experience",
+        "height": 2092,
+        "fileSize": "158KB"
+      },
+      {
+        "file": "mobile-education.png",
+        "section": "education",
+        "height": 788,
+        "fileSize": "50KB"
+      },
+      {
+        "file": "mobile-footer-4.png",
+        "section": "footer-4",
+        "height": 269,
+        "fileSize": "14KB"
+      }
+    ],
+    "pageHeight": 5447
+  }
+}
