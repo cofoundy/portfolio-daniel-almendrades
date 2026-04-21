@@ -2,7 +2,7 @@
 
 Portafolio profesional.
 
-**Live:** *Se actualizará después del deploy*
+**Live:** [daniel-almendrades.cofoundy.dev](https://daniel-almendrades.cofoundy.dev/)
 
 ## Tech Stack
 
