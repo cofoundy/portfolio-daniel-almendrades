@@ -1,0 +1,168 @@
+% Harvard-Format Professional CV — Daniel Martín Almendrades Maestre
+% Compile with: xelatex cv-almendrades.tex
+
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=0.6in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts (macOS system fonts) ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting ---
+\titleformat{\section}
+  {\large\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.4em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.4em}]
+\titlespacing{\section}{0pt}{0.6em}{0.3em}
+
+% --- List Formatting ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=1pt, topsep=2pt}
+
+% --- No page numbers ---
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\LARGE\bfseries Daniel Martín Almendrades Maestre} \\[4pt]
+  \faIcon{map-marker-alt}\enspace Lima, Perú
+  \quad\faIcon{envelope}\enspace \href{mailto:daniel.almendrades@seacargo.com}{daniel.almendrades@seacargo.com}
+  \quad\faIcon{phone}\enspace +51 994 127 981
+  \\[2pt]
+  \faIcon{linkedin}\enspace \href{https://www.linkedin.com/in/daniel-almendrades-574a2830/}{linkedin.com/in/daniel-almendrades}
+\end{center}
+
+\vspace{-0.4em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.2em}
+
+% ============================================
+% PERFIL
+% ============================================
+\section{Perfil Profesional}
+
+\noindent Executive Director con más de 30 años de trayectoria en Logística Internacional, Freight Forwarding y Agencia Marítima, con liderazgo comprobado en operaciones comerciales a través de Perú, Canadá, Estados Unidos y México. Bicultural peruano-canadiense, graduado con MBA y especialización en Operaciones Marítimas, con gestión integral de P\&L a nivel país y desarrollo de redes internacionales de agentes.
+
+% ============================================
+% EXPERIENCIA
+% ============================================
+\section{Experiencia Profesional}
+
+\entry{SEA Cargo Logistics Perú SAC}{Lima, Perú}{Gerente Regional de Desarrollo}{2024 -- Presente}
+\begin{itemize}
+  \item Lidera la expansión regional del freight forwarder en Perú y mercados LATAM, impulsando desarrollo de negocios estratégicos con alcance multi-país.
+  \item Gestiona relaciones con socios y agentes internacionales, consolidando la red global de la operación.
+  \item Ejecuta iniciativas de crecimiento comercial alineadas al posicionamiento regional de la compañía.
+\end{itemize}
+\vspace{0.3em}
+
+\entry{SEA Cargo Logistics Perú SAC}{Lima, Perú}{Gerente General | Country Managing Director}{2011 -- 2024}
+\begin{itemize}
+  \item Dirigió integralmente la operación de la compañía en Perú durante 13 años consecutivos, consolidando la presencia del freight forwarder en el mercado local.
+  \item Administró el P\&L completo a nivel país, supervisando operaciones, administración, ventas y relación con clientes y agentes internacionales.
+  \item Construyó y lideró el equipo ejecutivo, asegurando continuidad operacional y crecimiento sostenido del negocio.
+  \item Desarrolló alianzas estratégicas con agentes internacionales para fortalecer el tráfico de carga entre Perú y corredores globales.
+\end{itemize}
+\vspace{0.3em}
+
+\entry{EMO Trans Perú SAC}{Lima, Perú}{Gerente de Desarrollo Norte América | Representante de Socios USA}{2006 -- 2011}
+\begin{itemize}
+  \item Dirigió el desarrollo comercial y la supervisión del tráfico de carga entre Perú y Norte América, cubriendo los corredores estratégicos de la compañía.
+  \item Actuó como director y representante directo de los socios de USA en Perú, asegurando alineación operativa y comercial entre ambas geografías.
+  \item Ejecutó iniciativas de captación y retención de cuentas clave en el tráfico Perú--USA.
+\end{itemize}
+\vspace{0.3em}
+
+\entry{EMO Trans Houston, Texas}{Houston, USA}{Regional Sales Manager -- South West}{2000 -- 2006}
+\begin{itemize}
+  \item Lideró la gerencia comercial de la región suroeste de Estados Unidos, cubriendo Texas, Arizona, New Mexico y Louisiana.
+  \item Desarrolló y cerró cuentas estratégicas en el mercado corporativo del suroeste, impulsando el crecimiento del portafolio regional.
+  \item Construyó relaciones comerciales con agentes de América Latina, ampliando el alcance del tráfico internacional de la oficina.
+\end{itemize}
+\vspace{0.3em}
+
+\entry{Geodis Overseas México}{Guadalajara, México}{Branch Manager -- Guadalajara}{1996 -- 2000}
+\begin{itemize}
+  \item Dirigió la oficina de Guadalajara cubriendo la zona del Bajío, con responsabilidad integral sobre operaciones, comercial y administración.
+  \item Supervisó procesos operativos y de servicio al cliente, asegurando continuidad del tráfico de carga internacional.
+  \item Captó nuevos clientes y mantuvo cartera existente, consolidando la posición de la oficina en la región.
+\end{itemize}
+\vspace{0.3em}
+
+\entry{Geodis Overseas México}{México}{Commercial Route Manager -- North America}{1994 -- 1996}
+\begin{itemize}
+  \item Desarrolló el tráfico comercial en el corredor México / USA / Canadá, ampliando la red de negocios cross-border.
+  \item Ejecutó planes de expansión comercial en rutas estratégicas norteamericanas.
+\end{itemize}
+\vspace{0.3em}
+
+\entry{Inchcape Shipping Services}{Vancouver, Canadá}{Asistente de Operaciones -- Agencia Marítima}{1994}
+\begin{itemize}
+  \item Atendió operaciones de naves graneleras en el puerto de Vancouver, gestionando espacios de muelle y logística portuaria.
+  \item Coordinó con remolcadores, estibadores, pilotos, hombres de línea, inspectores y Canada Customs para asegurar atención eficiente de buques.
+\end{itemize}
+\vspace{0.3em}
+
+\entry{Canpotex Shipping}{Vancouver, Canadá}{Prácticas Profesionales -- Agencia Marítima}{1994}
+\begin{itemize}
+  \item Realizó prácticas profesionales en agencia marítima de buques tramp, adquiriendo exposición directa a operaciones de shipping internacional.
+\end{itemize}
+\vspace{0.3em}
+
+% ============================================
+% EDUCACIÓN
+% ============================================
+\section{Educación}
+
+\entry{California Coast University}{USA}{MBA -- Master in Business Administration (Negocios Internacionales)}{2002}
+\vspace{0.3em}
+
+\entry{Instituto Tecnológico de Monterrey}{Campus Guadalajara, México}{Business Administration}{1999}
+\vspace{0.3em}
+
+\entry{British Columbia Institute of Technology}{Vancouver, Canadá}{Shipping and Marine Operations -- Pacific Marine Training Campus}{1994}
+\vspace{0.3em}
+
+\entry{Capilano College}{Vancouver, Canadá}{General Studies}{1992}
+\vspace{0.3em}
+
+% ============================================
+% SKILLS
+% ============================================
+\section{Competencias y Adicionales}
+
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Técnicas:} & Freight Forwarding, Agencia Marítima, Operaciones Marítimas y Navieras, Comercio Internacional (Import/Export), Supply Chain Management, Transporte Multimodal, Customs Regulations (PE, USA, CA, MX), Project Cargo. \\
+\textbf{Estratégicas:} & Strategic Planning, Sales Management, Business Development Regional, P\&L Management (Country-level), Account Management, Cross-border Operations, Gestión de Oficinas Internacionales. \\
+\textbf{Liderazgo:} & Liderazgo Multicultural (4 países), Negociación Internacional, Relacionamiento con Socios Estratégicos, Comunicación Bicultural. \\
+\textbf{Idiomas:} & Español (Nativo), Inglés (Nativo -- 20 años en Canadá y USA). \\
+\textbf{Ciudadanía:} & Peruana y Canadiense (dual). \\
+\textbf{Intereses:} & Golf, Tenis, Running, Guitarra, Piano. \\
+\end{tabularx}
+
+\end{document}
