@@ -45,7 +45,7 @@ export const siteConfig = {
   experience: [
     {
       company: "SEA Cargo Logistics Perú SAC",
-      title: "Gerente Regional de Desarrollo",
+      title: "Director Regional de Desarrollo | Regional Development Director",
       dateRange: "2024 — Presente",
       bullets: [
         "Expansión regional de la operación y desarrollo de negocios estratégicos.",
